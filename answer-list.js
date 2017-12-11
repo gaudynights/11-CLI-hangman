@@ -1,6 +1,6 @@
 
 
 
-var movieList=["moonstruck","stolen"];
+var answerList=["moonstruck","stolen"];
 
-module.exports=movieList;
+module.exports=answerList;
