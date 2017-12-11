@@ -1,0 +1,22 @@
+{
+  "name": "mbalagia-cli-hangman",
+  "version": "1.0.0",
+  "description": "npm package for cli hangman game",
+  "main": "hangman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaudynights/11-CLI-hangman.git"
+  },
+  "author": "michael balagia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaudynights/11-CLI-hangman/issues"
+  },
+  "homepage": "https://github.com/gaudynights/11-CLI-hangman#readme",
+  "dependencies": {
+    "inquirer": "^4.0.1"
+  }
+}
