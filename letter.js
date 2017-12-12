@@ -12,10 +12,10 @@
  };
 
  Letter.prototype.printLetter = function() {
-     if (this.show = true) {
+     if (this.show == true) {
          return this.letter;
      } else {
-         return "_";
+         return "_ ";
      }
  };
 
