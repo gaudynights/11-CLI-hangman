@@ -2,11 +2,11 @@
  // doesnt check if the letters are in the word - word will do that
  // this one decides whether to show _ or letter
 
- console.log("LETTER reporting for duty");
+ // console.log("LETTER reporting for duty");
 
  function Letter(letter) {
      this.letter = letter;
-     if (this.letter == " ") {
+     if (this.letter == " "|| this.letter == "&" || this.letter == "/" || this.letter == ":" || this.letter == "'") {
          this.show = true;
      } else { this.show = false; }
  };

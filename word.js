@@ -7,7 +7,7 @@
 
   var Letter = require("./letter.js");
 
-  console.log("WORD reporting for duty");
+  // console.log("WORD reporting for duty");
 
   var Word = function(currentWord) {
       this.numGuessesRemaning = 10;
@@ -28,7 +28,7 @@
       for (var p = 0; p < this.letters.length; p++) {
           display += this.letters[p].printLetter();
       }
-      console.log(display);
+      // console.log(display);
       return display;
 
   };
@@ -53,6 +53,14 @@
       }
   };
 
+Word.prototype.isComplete = function() {
+    for (var i = 0; i < this.letters.length; i++) {
+        if (!this.letters[i].show) {
+            return false;;
+        }
+    }
+    return true;
+};
 
 
   module.exports = Word;
